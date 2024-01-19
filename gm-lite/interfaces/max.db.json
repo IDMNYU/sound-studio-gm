@@ -1,0 +1,12 @@
+{
+	"maxdb" : {
+		"filters" :
+		[
+			{
+				"filter" : "ignore",
+				"path" : "package@this:/misc/gm-samples/samples",
+				"kind" : "*"
+			}
+		]
+	}
+}

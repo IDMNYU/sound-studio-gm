@@ -1,0 +1,36 @@
+{
+	"name" : "sound-studio-gm",
+	"displayname" : "Sound Studio General MIDI (Lite Version)",
+	"version" : "0.0.1",
+	"author" : "Sam Tarakajian",
+	"authors" : [  ],
+	"description" : "General MIDI instruments and samples for Max, piano and percussion only",
+	"tags" : [ "sfizz" ],
+	"website" : "https://github.com/IDMNYU/sound-studio-gm",
+	"extends" : "",
+	"extensible" : 0,
+	"max_version_min" : "8.0",
+	"max_version_max" : "none",
+	"os" : 	{
+		"macintosh" : 		{
+			"min_version" : "10.11.x",
+			"platform" : [ "x64", "aarch64" ]
+		}
+,
+		"windows" : 		{
+			"min_version" : "none",
+			"platform" : [ "ia32", "x64" ]
+		}
+
+	}
+,
+"homepatcher" : "gm-lite-demo.maxpat"
+,
+	"filelist" : 	{
+		"patchers" : [ "gm-percussion.maxpat", "gm-piano.maxpat"],
+		"extras" : [ "gm-lite-demo.maxpat" ],
+		"misc" : [ "gm-samples/001_Piano.sfz", "gm-samples/129_Percussion.sfz" ]
+	}
+,
+	"installdate" : 3722345657
+}
